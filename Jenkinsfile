@@ -1,5 +1,6 @@
 pipeline {
     agent any
+    
     environment {
         // Define environment variables
         GITHUB_CREDENTIALS = credentials('github-token')
